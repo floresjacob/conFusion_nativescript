@@ -2,6 +2,7 @@
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/app.module.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/app.routing.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/main.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/dishdetail/dishdetail.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/item-detail.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/item.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/item.service.js
@@ -12,6 +13,8 @@
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/shared/baseurl.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/shared/comment.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/shared/dish.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/shared/drawer/drawer.component.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/shared/drawer/drawer.page.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/common.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/dom-adapter.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/element-registry.js
@@ -85,6 +88,7 @@
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-intl/index.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl-common.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-telerik-ui/scripts/eula-prompt.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/application/application-common.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/application/application.js

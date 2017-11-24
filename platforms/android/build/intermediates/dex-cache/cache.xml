@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-25.3.1_7cccb2b60661c0bcbb74c837527eb2dff456a8ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/Common-2017.1.1003-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="29bb374c9fd569ea5fad2e6729c255c3717382c9">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Common-2017.1.1003-dev-release_9d5cfe484c0c9fdee221deaf3f48de79d55275e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -63,24 +63,6 @@
         revision="26.0.2"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
         <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-25.3.1_d36b866c27d50890d3f323011f8cd39b4488b5cc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-25.3.1_ac04a46c3c00e5b215150372cf83a4f40ee41861.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-25.3.1_e24ad2c1f0905ffb31f74f2070c0f562f1b43759.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,6 +84,60 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-25.3.1_e27a832370845325060d3e1001eab2970897ac74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-25.3.1_7cccb2b60661c0bcbb74c837527eb2dff456a8ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-25.3.1_ac04a46c3c00e5b215150372cf83a4f40ee41861.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-25.3.1_e24ad2c1f0905ffb31f74f2070c0f562f1b43759.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/Data-2017.1.1003-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a690a9ad791e20a8e6bfa1f39c4df912499d2472">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Data-2017.1.1003-dev-release_ffc988e82a2380aa6779c002a8b39e3a4e36fc2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/Primitives-2017.1.1003-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dea5032193895bd143e997736b2842b1dffd1dcf">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Primitives-2017.1.1003-dev-release_36903362abc3cb50d6a54061bc7d175a719f78a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,21 +156,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-25.3.1_e27a832370845325060d3e1001eab2970897ac74.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
         <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-25.3.1_a8a486381732c40355d13cadf29f532ba07b46c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/exploded-aar/List-2017.1.1003-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ccf00b7aa2472bfe1e92931c49e46d9103742149">
+        <dex dex="/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-List-2017.1.1003-dev-release_6fdf8ea5aaa577026ecc93ca58cc09b6b88f8411.jar" />
     </item>
 
 </items>
