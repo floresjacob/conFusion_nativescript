@@ -1,8 +1,5 @@
 import { Component, OnInit, Inject, ChangeDetectorRef } from '@angular/core';
-
-
 import { DishService } from '../services/dish.service';
-
 import { DrawerPage } from '../shared/drawer/drawer.page';
 import { Dish } from '../shared/dish';
 
