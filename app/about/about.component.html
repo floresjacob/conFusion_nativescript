@@ -23,19 +23,6 @@
             </StackLayout>
             <Label  row="1" height="40" class="p-10 m-t-10 h3" text="Corporate Leadership"></Label>
 
-            <!-- <ListView row="2" [items]="leaders" class="list-group p-10">
-                  <ng-template let-leader="item">
-                      <StackLayout orientation="horizontal" class="list-group-item">
-                          <Image row="0" col="0" rowSpan="2" height="60" width="60"  [src]="BaseURL + leader.image" class="img-circle"></Image>
-                          <StackLayout orientation="horizontal" rows="auto *" columns="*">
-                              <Label row="0" col="0" [text]="leader.name" class="list-group-item-heading"></Label>
-                              <Label row="1" col="0" class="list-group-item-text" [text]="leader.description" textWrap="true"></Label>
-                          </StackLayout>
-                      </StackLayout>
-                  </ng-template>
-            </ListView> -->
-
-
             <ListView row="2" height="1000" [items]="leaders" class="list-group p-10">
                 <ng-template let-leader="item">
                     <StackLayout orientation="horizontal" class="list-group-item">
