@@ -12,6 +12,7 @@
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/items.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/menu/menu.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/dish.service.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/favorite.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/leader.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/process-httpmsg.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/promotion.service.js
@@ -100,6 +101,7 @@
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-ngx-fonticon/src/app/pipes/fonticon.pipe.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-ngx-fonticon/src/app/services/fonticon.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-telerik-ui/scripts/eula-prompt.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-toasty/toasty.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/application/application-common.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/application/application.js
