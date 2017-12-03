@@ -342,6 +342,7 @@ export class ListViewEventData implements observableModule.EventData {
     * The native object that raised the event
     */
     ios: any;
+
 }
 
 /**
@@ -532,7 +533,7 @@ export class RadListView extends View {
      * you can block or allow the reordering procedure.
      */
     static itemReorderStartingEvent: string;
-    
+
     /**
      * This event is fired when an item is about to be reordered.
      * The event exposes an instance of the {@link ListViewEventData} class which contains
