@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xhdpi/logo.png",
+        "source": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/res/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xhdpi/icon.png",
+        "source": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xhdpi/background.png",
+        "source": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/res/drawable-xhdpi/background.png"
+    }
+]

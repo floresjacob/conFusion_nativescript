@@ -3,14 +3,19 @@
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/app.routing.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/main.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/about/about.component.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/comment/comment.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/contact/contact.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/dishdetail/dishdetail.component.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/favorites/favorites.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/home/home.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/item-detail.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/item.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/item.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/item/items.component.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/menu/menu.component.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/reservation/reservation.component.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/reservationmodal/reservationmodal.component.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/couchbase.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/dish.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/favorite.service.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/services/leader.service.js
@@ -93,6 +98,7 @@
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/router/private-imports/router-url-tree.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/value-accessors/base-value-accessor.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/zone-js/dist/zone-nativescript.js
+/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-couchbase/couchbase.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-intl/index.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl-common.js
 /Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl.js

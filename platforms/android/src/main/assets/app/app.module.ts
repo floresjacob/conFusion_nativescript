@@ -25,6 +25,7 @@ import { LeaderService } from "./services/leader.service";
 import { DishService } from "./services/dish.service";
 import { ProcessHTTPMsgService } from "./services/process-httpmsg.service";
 import { FavoriteService } from "./services/favorite.service";
+import { CouchbaseService } from './services/couchbase.service';
 
 import { baseURL } from "./shared/baseurl";
 
@@ -69,7 +70,8 @@ import { baseURL } from "./shared/baseurl";
         PromotionService,
         LeaderService,
         ProcessHTTPMsgService,
-        FavoriteService
+        FavoriteService,
+        CouchbaseService
     ],
     entryComponents: [
       ReservationModalComponent,
