@@ -8,7 +8,15 @@
         "source": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
     },
     {
+        "merged": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/rcflogo.png",
+        "source": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/res/drawable-xxxhdpi/rcflogo.png"
+    },
+    {
         "merged": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/background.png",
         "source": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/res/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/ic_drawer.png",
+        "source": "/Users/jacobflores/Desktop/Coursera Web Dev/NativeScript/conFusion/platforms/android/src/main/res/drawable-xxxhdpi/ic_drawer.png"
     }
 ]
