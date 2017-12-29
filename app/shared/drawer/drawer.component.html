@@ -45,4 +45,6 @@
         <Label row="0" col="0" class="sidedrawer-list-item-text fa" [text]="'fa-sign-in' | fonticon"></Label>
         <Label row="0" col="1" class="sidedrawer-list-item-text" text="Login"></Label>
     </GridLayout>
+    <GridLayout class="sidedrawer-list-item" rows="*" columns="50, *"
+    orientation="horizontal" [nsRouterLink]="['/auth']" clearHistory="true"> 
 </StackLayout>
