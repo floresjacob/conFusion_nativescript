@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Dish } from '../shared/dish';
 import { DishService } from '../services/dish.service';
 import { CouchbaseService } from '../services/couchbase.service';
-
+import * as LocalNotifications from 'nativescript-local-notifications';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
@@ -34,12 +34,18 @@ export class FavoriteService {
     }
 
     addFavorite(id: number): boolean {
-      if (!this.isFavorite(id)) {
+        if (!this.isFavorite(id)) {
             this.favorites.push(id);
-            this.couchbaseService.updateDocument(this.docId, {"favorites": this.favorites});
-          }
-
-      return true;
+            this.couchbaseService.updateDocument(this.docId, { "favorites": this.favorites });
+        }
+        LocalNotifications.schedule([{
+            id: id,
+            title: "ConFusion Favorites",
+            body: 'Dish ' + id + ' added successfully'
+        }])
+            .then(() => console.log('Notification scheduled'),
+            (error) => console.log('Error showing nofication ' + error));
+        return true;
     }
 
     getFavorites(): Observable<Dish[]> {
@@ -59,4 +65,4 @@ export class FavoriteService {
         return Observable.throw('Deleting non-existant favorite');
       }
     }
-}
+  }

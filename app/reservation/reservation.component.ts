@@ -3,8 +3,15 @@ import { DrawerPage } from '../shared/drawer/drawer.page';
 import { TextField } from 'ui/text-field';
 import { Switch } from 'ui/switch';
 import { Validators, FormBuilder, FormGroup} from '@angular/forms';
+
 import { ModalDialogService, ModalDialogOptions } from "nativescript-angular/modal-dialog";
 import { ReservationModalComponent } from "../reservationmodal/reservationmodal.component";
+
+import { Page } from "ui/page";
+import { Animation, AnimationDefinition } from "ui/animation";
+import { View } from "ui/core/view";
+import * as enums from "ui/enums";
+import { CouchbaseService } from '../services/couchbase.service';
 
 @Component({
     selector: 'app-reservation',
@@ -15,10 +22,15 @@ export class ReservationComponent extends DrawerPage implements OnInit {
 
     reservation: FormGroup;
 
+    showForm: boolean = true;
+    docId: string = "reservations";
+
     constructor(private changeDetectorRef: ChangeDetectorRef,
         private formBuilder: FormBuilder,
-        private _modalService: ModalDialogService,
-        private vcRef: ViewContainerRef) {
+        private modalService: ModalDialogService,
+        private vcRef: ViewContainerRef,
+        private page: Page,
+        private couchbaseService: CouchbaseService) {
             super(changeDetectorRef);
 
             this.reservation = this.formBuilder.group({
@@ -29,26 +41,6 @@ export class ReservationComponent extends DrawerPage implements OnInit {
     }
 
     ngOnInit() {
-
-    }
-
-    createModalView(args) {
-
-        let options: ModalDialogOptions = {
-            viewContainerRef: this.vcRef,
-            context: args,
-            fullscreen: false
-        };
-
-        this._modalService.showModal(ReservationModalComponent, options)
-            .then((result: any) => {
-                if (args === "guest") {
-                    this.reservation.patchValue({guests: result});
-                }
-                else if (args === "date-time") {
-                    this.reservation.patchValue({ dateTime: result});
-                }
-            });
 
     }
 
@@ -74,7 +66,73 @@ export class ReservationComponent extends DrawerPage implements OnInit {
         this.reservation.patchValue({ dateTime: textField.text});
     }
 
+    createModalView(args) {
+
+        let options: ModalDialogOptions = {
+            viewContainerRef: this.vcRef,
+            context: args,
+            fullscreen: false
+        };
+
+        this.modalService.showModal(ReservationModalComponent, options)
+            .then((result: any) => {
+                if (args === "guest") {
+                    this.reservation.patchValue({guests: result});
+                }
+                else if (args === "date-time") {
+                    this.reservation.patchValue({ dateTime: result});
+                }
+            });
+    }
+
     onSubmit() {
+        let doc = this.couchbaseService.getDocument(this.docId);
+
+        let reservations :  Array<object> = [];
+
+        if (doc == null) {
+            console.log('This is the first reservation');
+            this.couchbaseService.createDocument({ "reservations": [] }, this.docId);
+        }
+        else {
+            reservations = doc.reservations;
+        }
         console.log(JSON.stringify(this.reservation.value));
+        reservations.push(this.reservation.value);
+
+        this.couchbaseService.updateDocument(this.docId, { "reservations": reservations });
+
+        console.log(JSON.stringify(this.couchbaseService.getDocument(this.docId)));
+
+        let reservationView: View = this.page.getViewById<View>('reservationView');
+        let resultView: View = this.page.getViewById<View>('resultView');
+
+        resultView.animate({
+            scale: { x: 0, y: 0 },
+            opacity: 0,
+        })
+        .catch((e) => {
+            console.log(e.message);
+        });
+
+        reservationView.animate({
+            opacity: 0,
+            scale: { x: 0, y: 0},
+            duration: 500,
+            curve: enums.AnimationCurve.easeIn
+        })
+        .then(() => {
+            this.showForm = false;
+            resultView.animate({
+                opacity: 1,
+                scale: { x: 1, y: 1},
+                duration: 500,
+                curve: enums.AnimationCurve.easeIn
+            });
+        })
+        .catch((e) => {
+            console.log(e.message);
+        });
+
     }
 }
