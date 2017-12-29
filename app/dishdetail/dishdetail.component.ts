@@ -16,6 +16,9 @@ import { View } from "ui/core/view";
 import { SwipeGestureEventData, SwipeDirection } from "ui/gestures";
 import { Color } from 'color';
 import * as enums from "ui/enums";
+import * as SocialShare from "nativescript-social-share";
+import { ImageSource, fromUrl } from "image-source";
+
 import 'rxjs/add/operator/switchMap';
 
 @Component({
@@ -167,6 +170,32 @@ export class DishdetailComponent implements OnInit {
       toast.show();
     }
   }
+  
+  showModal() {
+
+    const options: ModalDialogOptions = {
+      viewContainerRef: this.vcRef,
+      fullscreen: false,
+    };
+
+    this.modalService.showModal(CommentComponent, options)
+    .then((result: any) => {
+      this.dish.comments.push(result);
+      console.log(this.dish.comments);
+    }).catch(() => { console.log('Error loading') });
+  }
+
+  socialShare() {
+    let image: ImageSource;
+
+    fromUrl(this.BaseURL + this.dish.image)
+     .then((img: ImageSource) => {
+       image = img;
+        SocialShare.shareImage(image, "How would you like to share this image?")
+      })
+     .catch(()=> { console.log('Error loading image'); });
+
+  }
 
   displayActionDialog() {
     dialogs.action({
@@ -181,20 +210,6 @@ export class DishdetailComponent implements OnInit {
         this.showModal();
       }
     });
-  }
-
-  showModal() {
-
-    const options: ModalDialogOptions = {
-      viewContainerRef: this.vcRef,
-      fullscreen: false,
-    };
-
-    this.modalService.showModal(CommentComponent, options)
-    .then((result: any) => {
-      this.dish.comments.push(result);
-      console.log(this.dish.comments);
-    }).catch(() => { console.log('Error loading') });
   }
 
 }
